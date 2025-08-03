@@ -43,7 +43,7 @@ The Res-UNet model demonstrated superior performance in generating high-fidelity
   - The **inference.py** script automates the end-to-end process: given a CH4 image, it performs classification and applies the correct Res-UNet generator to produce the synthetic CH1 image.
 
 
-###  Complete Pipeline Overview
+##  Complete Pipeline Overview
 ![Pipeline Overview](images/pipeline.png)
 
 This diagram shows the entire process:
