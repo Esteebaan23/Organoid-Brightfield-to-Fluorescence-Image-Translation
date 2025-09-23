@@ -5,13 +5,13 @@ This project focuses on translating brightfield microscopy images of organoids (
 ## Project Overview
 A dual-stage deep learning pipeline was developed:
 1. **Organoid Classification**: Classifying organoids as **chamber-forming** or **non-forming**.
-2. **Image Translation**: Generating synthetic fluorescence images (CH1) from brightfield inputs (CH4) using conditional image translation models.
+2. **Image Translation**: Generating synthetic fluorescence images (CH1-CH2) from brightfield inputs (CH4) using conditional image translation models.
 
 Multiple architectures were benchmarked, with **Res-UNet** achieving the best performance for the image translation task.
 
 ## Dataset (Confidential)
 - **Input Channel**: CH4 (Brightfield images)
-- **Target Channel**: CH1 (Green Fluorescence images)
+- **Target Channel**: CH1 (Green Fluorescence images) CH2 (Red Fluorescence images)
 - **Preprocessing**:
   - Resizing to 720x960 pixels
   - CLAHE (Contrast Limited Adaptive Histogram Equalization)
@@ -50,4 +50,4 @@ This diagram shows the entire process:
 1. Input Brightfield Image (CH4)
 2. Hybrid Classifier (ResNet50 + Vision Transformer) to determine organoid type
 3. Selection of appropriate Res-UNet generator
-4. Generation of synthetic Fluorescence Image (CH1)
+4. Generation of synthetic Fluorescence Image (CH1-CH2)
