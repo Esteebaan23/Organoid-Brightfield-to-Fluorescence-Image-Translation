@@ -30,7 +30,7 @@ The **Res-UNet** model achieved the highest fidelity in generating fluorescence 
 |---------------------------|--------|--------|-------------------------|
 | U-Net                     | 22.36  | 0.893  | N/A                     |
 | **Res-UNet**               | **24.84** | **0.928** | N/A                     |
-| ResNet50 + ViT (DeiT3-Base)| N/A    | N/A    | 86.23%                  |
+| ResNet50 + ViT (DeiT3-Base)| N/A    | N/A    | 95.23%                  |
 
 The Res-UNet model demonstrated superior performance in generating high-fidelity fluorescence images, making it the selected architecture for deployment.
 
