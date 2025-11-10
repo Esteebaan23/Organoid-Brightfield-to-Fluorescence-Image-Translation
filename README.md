@@ -44,7 +44,7 @@ The Res-UNet model demonstrated superior performance in generating high-fidelity
 
 
 ##  Complete Pipeline Overview
-![Pipeline Overview](images/pipeline.png)
+![Pipeline Overview](images/diagram (1).png)
 
 This diagram shows the entire process:
 1. Input Brightfield Image (CH4)
